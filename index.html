@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title>АВУАР</title>
+
+	<link rel="stylesheet" href="/files/avuar24/css/a24_style.css" />
+	<link rel="stylesheet" href="/files/avuar24/css/a24_mainpage.css" />
+	<link rel="stylesheet" href="/files/avuar24/css/a24_pages.css" />
+	<!-- <link rel="stylesheet" href="/files/avuar24/css/a24_common.css" /> -->
+	<link rel="stylesheet" href="/files/avuar24/css/a24_custom.css" />
+
+	<script src="/files/avuar24/js/jquery-3.1.0.min.js"></script>
+
+</head>
+<body>
+
+	<header class="header">
+
+		<div class="header__top">
+			<div class="container">
+				<div class="header__wrapper">
+					<nav class="nav header__nav">
+						<ul class="nav__list">
+							<li class="nav__item"> <a href="/about/" class="nav__link">О компании</a> </li>
+							<li class="nav__item arrow"> <a href="/directions/" class="nav__link" >Направления</a> </li>
+							<li class="nav__item arrow"> <a href="/documents/" class="nav__link">Документы</a> </li>
+							<li class="nav__item arrow"> <a href="/questions/" class="nav__link">Вопросы</a> </li>
+							<li class="nav__item"> <a href="/blog/" class="nav__link">Блог</a> </li>
+							<li class="nav__item"> <a href="/news/" class="nav__link">Новости</a> </li>
+							<li class="nav__item"> <a href="/contacts/" class="nav__link">Контакты</a> </li>
+						</ul>
+					</nav>
+					<p><a rel="nofollow" target="_blank" href="https://yandex.ru/maps/org/tekhnopark_lytkino/1475196410/?ll=37.335583%2C55.871449&z=10">МО, Солнечногорский р-н, д. Лыткино, с 2, Технопарк Лыткино </a></p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="header__wrapper">
+
+				<div class="header__wrapper-mobile">
+					<div class="header__logo">
+						<a href="https://avuar.org/" ><img src="/files/avuar24/img/logo.svg" alt="logo" /></a>
+						<p> Профессиональная химия для уборки от производителя </p>
+					</div>
+					<button class="burger"></button>
+				</div>
+
+				<div class="header__search">
+					<button class="header__search-icon"></button>
+					<div class="header__search-absolute">
+						<div class="container">
+							<form class="header__search-form " action="/search/" name="search" method="get">
+								<div class="header__search-input">
+									<div class="header__search-icon"></div>
+									<input type="search" name="search" id="search" placeholder="Поиск по каталогу" aria-label="Search" value="" title="Введите запрос и нажмите Enter"  />
+								</div>
+								<button type="submit" class="header__search-button"> <p>Искать</p> </button>
+								<div class="header__search-close"></div>
+							</form>
+						</div>
+					</div>
+				</div>
+
+				<div class="header__contacts">
+					<p class="header__time">Пн-Пт с 08:00 до 18:00</p>
+					<a href="mailto:info@avuar.org" class="header__mail" >info@avuar.org</a >
+					<a href="tel:+74997072818" class="header__phone" >+7(499)707-28-18</a >
+				</div>
+
+				<button class="header__button modal-button">Заказать звонок</button>
+
+			</div>
+		</div>
+
+		<div class="header__bottom">
+			<div class="container">
+				<div class="header__wrapper">
+					<nav class="nav header__nav">
+
+						<ul class="nav__list">
+							<li class="nav__item">
+								<a href="/catalog/byitovaya-himiya/" class="nav__link" ><img src="/files/img_mainpage24/nav-icon-1.svg" alt="icon" />Бытовая химия</a >
+									<ul class=""><li class="first"><a href="catalog/sredstva-dlya-ruk/" >Жидкое мыло для мытья рук</a></li><li><a href="catalog/sredstva-dlya-stekol-i-zerkal/" >Средства для стекол и зеркал</a></li><li><a href="catalog/sredstva-dlya-chistki-kovrov/" >Средства для чистки ковров и мебели</a></li><li><a href="catalog/sredstva-po-uxodu-za-polom/" >Средства для мытья полов</a></li><li><a href="catalog/sredstva-po-uxodu-za-pokryitiyami/" >Средства по уходу за покрытиями</a></li><li class="last"><a href="catalog/sredstva-dlya-gigienyi-kuxni/" >Чистящие средства для кухни</a></li></ul>
+							</li>
+							<li class="nav__item">
+								<a href="/catalog/cleaning/" class="nav__link" ><img src="/files/img_mainpage24/nav-icon-2.svg" alt="icon" />Химия для клининга</a >
+									<ul class=""><li class="first"><a href="catalog/sredstva-dlya-udaleniya-staryix-polimernyix-pokryitij/" >Средства для удаления старых полимерных покрытий</a></li><li><a href="catalog/himiya-dlya-gostinits/" >Профессиональные средства для уборки гостиниц</a></li><li class="last"><a href="catalog/professionalnaya-ximiya-dlya-restoranov/" >Профессиональная химия для уборки ресторанов</a></li></ul>
+							</li>
+							<li class="nav__item">
+								<a href="/catalog/himchistka-prachechnaya/" class="nav__link" ><img src="/files/img_mainpage24/nav-icon-3.svg" alt="icon" />Химия для прачечных и химчисток</a >
+									<ul class=""><li class="first"><a href="catalog/sredstva-dlya-professionalnoj-stirki/" >Средства для стирки</a></li></ul>
+							</li>
+							<li class="nav__item">
+								<a href="/catalog/special/" class="nav__link" ><img src="/files/img_mainpage24/nav-icon-4.svg" alt="icon" />Специальные средства</a >
+									<ul class=""><li class="first"><a href="catalog/sredstva-dlya-ochistki-speczificheskix-zagryaznenij/" >Для устранения специфических загрязнений</a></li><li><a href="catalog/zashhishhayushhie-sredstva/" >Декоративные защитные пропитки и гидрофобизаторы</a></li><li><a href="catalog/chistyashhie-pastyi-s-abrazivnyim-effektom/" >Пасты с абразивным эффектом</a></li><li><a href="catalog/sredstva-dlya-gigienyi-sanitarnyix-zon/" >Кислотные чистящие средства для санитарных зон</a></li><li class="last"><a href="catalog/universalnyie-moyushhie-sredstva/" >Универсальные</a></li></ul>
+							</li>
+							<li class="nav__item">
+								<a href="/catalog/professionalnaya-avtoximiya/" class="nav__link" ><img src="/files/img_mainpage24/nav-icon-5.svg" alt="icon" />Автохимия</a >
+									
+							</li>
+							<li class="nav__item"> <a href="/production/" class="nav__link" ><img src="/files/img_mainpage24/nav-icon-6.svg" alt="icon" />Контрактное производство </a> </li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+
+		<div class="header__menu-mobile">
+			<nav class="nav header__nav">
+				<li class="nav__item">
+					<a href="/catalog/" class="nav__link">Продукция </a>
+
+					<ul class="nav__list-mob">
+						<li class="nav__item-mob accordion">
+							<a href="/catalog/byitovaya-himiya/" class="nav__link-mob" ><img src="/files/img_mainpage24/nav-icon-1.svg" alt="icon" />Бытовая химия</a >
+								<ul class=""><li class="first"><a href="catalog/sredstva-dlya-ruk/" >Жидкое мыло для мытья рук</a></li><li><a href="catalog/sredstva-dlya-stekol-i-zerkal/" >Средства для стекол и зеркал</a></li><li><a href="catalog/sredstva-dlya-chistki-kovrov/" >Средства для чистки ковров и мебели</a></li><li><a href="catalog/sredstva-po-uxodu-za-polom/" >Средства для мытья полов</a></li><li><a href="catalog/sredstva-po-uxodu-za-pokryitiyami/" >Средства по уходу за покрытиями</a></li><li class="last"><a href="catalog/sredstva-dlya-gigienyi-kuxni/" >Чистящие средства для кухни</a></li></ul>
+						</li>
+						<li class="nav__item-mob accordion">
+							<a href="/catalog/cleaning/" class="nav__link-mob" ><img src="/files/img_mainpage24/nav-icon-2.svg" alt="icon" />Химия для клининга</a >
+								<ul class=""><li class="first"><a href="catalog/sredstva-dlya-udaleniya-staryix-polimernyix-pokryitij/" >Средства для удаления старых полимерных покрытий</a></li><li><a href="catalog/himiya-dlya-gostinits/" >Профессиональные средства для уборки гостиниц</a></li><li class="last"><a href="catalog/professionalnaya-ximiya-dlya-restoranov/" >Профессиональная химия для уборки ресторанов</a></li></ul>
+						</li>
+						<li class="nav__item-mob accordion">
+							<a href="/catalog/himchistka-prachechnaya/" class="nav__link-mob" ><img src="/files/img_mainpage24/nav-icon-3.svg" alt="icon" />Химия для прачечных и химчисток</a >
+								<ul class=""><li class="first"><a href="catalog/sredstva-dlya-professionalnoj-stirki/" >Средства для стирки</a></li></ul>
+						</li>
+						<li class="nav__item-mob accordion">
+							<a href="/catalog/special/" class="nav__link-mob" ><img src="/files/img_mainpage24/nav-icon-4.svg" alt="icon" />Специальные средства</a >
+								<ul class=""><li class="first"><a href="catalog/sredstva-dlya-ochistki-speczificheskix-zagryaznenij/" >Для устранения специфических загрязнений</a></li><li><a href="catalog/zashhishhayushhie-sredstva/" >Декоративные защитные пропитки и гидрофобизаторы</a></li><li><a href="catalog/chistyashhie-pastyi-s-abrazivnyim-effektom/" >Пасты с абразивным эффектом</a></li><li><a href="catalog/sredstva-dlya-gigienyi-sanitarnyix-zon/" >Кислотные чистящие средства для санитарных зон</a></li><li class="last"><a href="catalog/universalnyie-moyushhie-sredstva/" >Универсальные</a></li></ul>
+						</li>
+						<li class="nav__item-mob accordion">
+							<a href="/catalog/professionalnaya-avtoximiya/" class="nav__link-mob" ><img src="/files/img_mainpage24/nav-icon-5.svg" alt="icon" />Автохимия</a >
+								
+						</li>
+						<li class="nav__item-mob"> <a href="/production/" class="nav__link-mob" ><img src="/files/img_mainpage24/nav-icon-6.svg" alt="icon" />Контрактное производство </a> </li>
+					</ul>
+				</li>
+				<li class="nav__item"> <a href="/about/" class="nav__link">О компании</a> </li>
+				<li class="nav__item"> <a href="/directions/" class="nav__link">Направления</a> </li>
+				<li class="nav__item"> <a href="/documents/" class="nav__link">Документы</a> </li>
+				<li class="nav__item"> <a href="/questions/" class="nav__link">Вопросы</a> </li>
+				<li class="nav__item"> <a href="/blog/" class="nav__link">Блог</a> </li>
+				<li class="nav__item"> <a href="/news/" class="nav__link">Новости</a> </li>
+				<li class="nav__item"> <a href="/contacts/" class="nav__link">Контакты</a> </li>
+			</nav>
+			<p> г. Москва, ул. Генерала Кузнецова, д. 18, корп. 2, помещение XXIII </p>
+			<p>Пн-Пт: 08:00–18:00</p>
+			<a href="#contacts"  class="header__button">Заказать звонок</a>
+		</div>
+
+	</header>
+
+
+	<!-- -PROMO -->
+	<section class="main">
+		<div class="container">
+			<div class="main__wrapper">
+
+				<!-- Slider -->
+				<div class="main__slider">
+					<div class="swiper main-swiper">
+						<div class="swiper-wrapper">
+
+							<div class="swiper-slide main__slide">
+								<img src="/files/img_mainpage24/main-1.jpeg" alt="img" />
+								<h2 class="main__title"> Профессиональная химия для уборки </h2>
+								<a href="/catalog/" class="main__link" >Перейти в каталог</a >
+							</div>
+
+
+
+						</div>
+					</div>
+					
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+				</div><!-- Slider -->
+
+				<!-- banner -->
+				<div class="main__banner main__banner-green">
+					<p class="main__banner-title"> Получайте за покупку в марте средство для мытья посуды N02 (1л) </p>
+					<img src="/files/img_mainpage24/banner-green.png" alt="img">
+					<a href="/catalog/" class="main__banner-link">Перейти к покупкам</a>
+				</div><!-- banner -->
+
+			</div>
+		</div>
+	</section><!-- PROMO -->
+
+	<!-- CATEGORY -->
+	<section class="category">
+		<div class="container">
+			<div class="category__wrapper">
+
+				<h2 class="section-title">Категории продукции</h2>
+
+				<ul class="category__list">
+
+					<li class="category__item">
+						<a href="/catalog/sredstva-dlya-stekol-i-zerkal/">
+							<img src="/files/img_mainpage24/category-1.jpeg" alt="img" />
+							<p>Средства для стекол и зеркал</p>
+						</a>
+					</li>
+
+					<li class="category__item">
+						<a href="/catalog/sredstva-dlya-professionalnoj-stirki/">
+							<img src="/files/img_mainpage24/category-2.jpeg" alt="img" />
+							<p> Средства для стирки </p>
+						</a>
+					</li>
+
+					<li class="category__item">
+						<a href="/catalog/sredstva-dlya-gigienyi-sanitarnyix-zon/">
+							<img src="/files/img_mainpage24/category-3.jpeg" alt="img" />
+							<p>Кислотные чистящие средства для санитарных зон</p>
+						</a>
+					</li>
+
+					<li class="category__item">
+						<a href="/catalog/sredstva-dlya-udaleniya-zagryaznenij-posle-stroitelnyix-rabot/">
+							<img src="/files/img_mainpage24/category-4.jpeg" alt="img" />
+							<p>Средства для уборки после ремонта и строительства</p>
+						</a>
+					</li>
+
+					<li class="category__item">
+						<a href="/catalog/sredstva-dlya-ochistki-speczificheskix-zagryaznenij/">
+							<img src="/files/img_mainpage24/category-7.jpg" alt="img" />
+							<p>Для устранения специфических загрязнений</p>
+						</a>
+					</li>
+
+					<li class="category__item">
+						<a href="/production/">
+							<img src="/files/img_mainpage24/category-6.jpeg" alt="img" />
+							<p>Контрактное производство</p>
+						</a>
+					</li>
+
+				</ul>
+
+			</div>
+		</div>
+	</section><!-- CATEGORY -->
+
+	<!-- -POPULAR -->
+	<section class="popular">
+		<div class="container">
+			<div class="popular__wrapper">
+
+				<div class="popular__inner">
+					<h2 class="section-title">Популярные товары</h2>
+					<div class="popular__tabs">
+						<button class="popular__tab active" data-tabs-path="hit" > Хит </button>
+						<button class="popular__tab" data-tabs-path="new"> Новинка </button>
+						<button class="popular__tab" data-tabs-path="recommended" > Рекомендуем </button>
+					</div>
+					<a href="/catalog/" class="popular__link" >Перейти ко всем товарам</a >
+				</div>
+
+				<div class="popular__content active" data-tabs-target="hit">
+					
+						<div class="popular__card">
+						<p class="popular__tag">
+							ХИТ 
+							
+							
+						</p>
+						<img src="/assets/cache_image/img2024/A-08 (2)_220x250_453.jpg" alt="Средство от засоров в трубах AV A 08" />
+						<div class="popular__card-inner">
+							<p class="popular__stock">В наличии</p>
+							<p class="popular__title"> Средство от засоров в трубах AV A 08 </p>
+							<p class="popular__price"> 0 руб.</p>
+							<a class="popular__btn" href="/catalog/av-a-08/">Заказать</a>
+						</div>
+					</div>
+<div class="popular__card">
+						<p class="popular__tag">
+							ХИТ 
+							
+							
+						</p>
+						<img src="/assets/cache_image/img2024/N-02 (2)_220x250_453.jpg" alt="AV N 02" />
+						<div class="popular__card-inner">
+							<p class="popular__stock">В наличии</p>
+							<p class="popular__title"> AV N 02 </p>
+							<p class="popular__price"> 145 руб.</p>
+							<a class="popular__btn" href="/catalog/av-n-02/">Заказать</a>
+						</div>
+					</div>
+<div class="popular__card">
+						<p class="popular__tag">
+							ХИТ 
+							
+							
+						</p>
+						<img src="/assets/cache_image/img2024/S-07 (2)_220x250_453.jpg" alt="AV S 07" />
+						<div class="popular__card-inner">
+							<p class="popular__stock">В наличии</p>
+							<p class="popular__title"> AV S 07 </p>
+							<p class="popular__price"> 580 руб.</p>
+							<a class="popular__btn" href="/catalog/av-s-07/">Заказать</a>
+						</div>
+					</div>
+<div class="popular__card">
+						<p class="popular__tag">
+							ХИТ 
+							
+							
+						</p>
+						<img src="/assets/cache_image/img2024/N-10_220x250_453.jpg" alt="AV N 10" />
+						<div class="popular__card-inner">
+							<p class="popular__stock">В наличии</p>
+							<p class="popular__title"> AV N 10 </p>
+							<p class="popular__price"> 1 040 руб.</p>
+							<a class="popular__btn" href="/catalog/av-n-10/">Заказать</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="popular__content" data-tabs-target="new">
+						<div class="popular__card">
+						<p class="popular__tag">
+							
+							Новинка 
+							
+						</p>
+						<img src="/assets/cache_image/img2024/N-01_220x250_453.jpg" alt="AV N 01" />
+						<div class="popular__card-inner">
+							<p class="popular__stock">В наличии</p>
+							<p class="popular__title"> AV N 01 </p>
+							<p class="popular__price"> 799 руб.</p>
+							<a class="popular__btn" href="/catalog/av-n-01/">Заказать</a>
+						</div>
+					</div>
+<div class="popular__card">
+						<p class="popular__tag">
+							
+							Новинка 
+							
+						</p>
+						<img src="/assets/cache_image/img2024/H-05_220x250_453.jpg" alt="AV H 05" />
+						<div class="popular__card-inner">
+							<p class="popular__stock">В наличии</p>
+							<p class="popular__title"> AV H 05 </p>
+							<p class="popular__price"> 739 руб.</p>
+							<a class="popular__btn" href="/catalog/av-h-05/">Заказать</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="popular__content" data-tabs-target="recommended">
+						<div class="popular__card">
+						<p class="popular__tag">
+							
+							
+							Рекомендуем 
+						</p>
+						<img src="/assets/cache_image/img2024/N-05 (2)_220x250_453.jpg" alt="AV N 05" />
+						<div class="popular__card-inner">
+							<p class="popular__stock">В наличии</p>
+							<p class="popular__title"> AV N 05 </p>
+							<p class="popular__price"> 230 руб.</p>
+							<a class="popular__btn" href="/catalog/av-n-05/">Заказать</a>
+						</div>
+					</div>
+<div class="popular__card">
+						<p class="popular__tag">
+							
+							
+							Рекомендуем 
+						</p>
+						<img src="/assets/cache_image/img2024/N-15_220x250_453.jpg" alt="AV N 15" />
+						<div class="popular__card-inner">
+							<p class="popular__stock">В наличии</p>
+							<p class="popular__title"> AV N 15 </p>
+							<p class="popular__price"> 1 899 руб.</p>
+							<a class="popular__btn" href="/catalog/av-n-15/">Заказать</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- CHOOSE -->
+	<section class="choose">
+		<div class="container">
+			<div class="choose__wrapper">
+				<h2 class="section-title">Почему нас выбирают</h2>
+				<div class="choose__inner">
+
+					<div class="choose__item choose__item-green">
+						<h3>Отечественная химия высокого качества</h3>
+						<p> Средства AVUAR успешно ломают ложный стереотип о плохом качестве отечественной химии. Все средства производятся в соответствии с ГОСТами и новейшими экологическими требованиями и с контролем качества на всех этапах производства. </p>
+					</div>
+
+					<div class="choose__items">
+						<div class="choose__item">
+							<div class="choose__item-icon"> <img src="/files/img_mainpage24/choose-1.svg" alt="icon" /> </div>
+							<h3>Соотношение цены и качества</h3>
+							<p> Наша продукция AVUAR может полностью заменить как импортные, так и отечественные аналоги и удовлетворить все потребности любого заведения. </p>
+						</div>
+						<div class="choose__item">
+							<div class="choose__item-icon"> <img src="/files/img_mainpage24/choose-2.svg" alt="icon" /> </div>
+							<h3>Оперативность поставок</h3>
+							<p> Поставки осуществляются быстро: собственным транспортом, транспортными компаниями, через 3PL поставщиков. </p>
+						</div>
+						<div class="choose__item">
+							<div class="choose__item-icon"> <img src="/files/img_mainpage24/choose-3.svg" alt="icon" /> </div>
+							<h3>Сопровождение клиента</h3>
+							<p> Наши технологи ответят на любой вопрос по использованию моющих средств AVUAR, обучат технологиям уборки, приедут на объект и помогут справиться с любой задачей по удалению загрязнений. </p>
+						</div>
+						<div class="choose__item">
+							<div class="choose__item-icon"> <img src="/files/img_mainpage24/choose-4.svg" alt="icon" /> </div>
+							<h3>Эффективность средств</h3>
+							<p> Большой ассортимент эффективной продукции. Инновационные технологии компании позволяет производить самые действенные моющие средства </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- -NEWS -->
+	<section class="news">
+		<div class="container">
+			<div class="news__wrapper">
+				<div class="news__inner">
+					<h2 class="section-title">Новости компании</h2>
+					<a href="#" class="news__link">Читать все новости</a>
+				</div>
+
+				<div class="news__slider">
+					<div class="swiper news-swiper">
+						<div class="swiper-wrapper">
+
+							<div class="swiper-slide news__slide">
+								<a href="news/uchastie-v-strategicheskoj-sessii/">
+									<img src="/assets/cache_image/files/images/WhatsApp Image 2022-12-01 at 14.37.17_350x185_cf7.jpeg" alt="img" />
+									<p class="news__date">06.12.2022</p>
+									<p class="news__title">Участие в стратегической сессии "Решение спецзадач на объекте" 26.10.2022</p>
+									<div class="news__icon"></div>
+								</a>
+							</div>
+<div class="swiper-slide news__slide">
+								<a href="news/mezhdunarodnyij-forum-«innovaczii-i-razvitie»/">
+									<img src="/assets/cache_image/files/images/articles/DSC_6176_новый размер_350x185_e32.jpg" alt="img" />
+									<p class="news__date">22.01.2018</p>
+									<p class="news__title">Международный форум «Инновации и развитие»</p>
+									<div class="news__icon"></div>
+								</a>
+							</div>
+<div class="swiper-slide news__slide">
+								<a href="news/cleanexpo-moscow-14.11.17/">
+									<img src="/assets/cache_image/files/images/articles/ahp-32_350x185_e32.jpg" alt="img" />
+									<p class="news__date">18.01.2018</p>
+									<p class="news__title">CleanExpo Moscow 14.11.17</p>
+									<div class="news__icon"></div>
+								</a>
+							</div>
+<div class="swiper-slide news__slide">
+								<a href="news/cleanexpo-moscow-s-13-po-15-noyabrya-2017g/">
+									<img src="/assets/cache_image/files/images/articles/2018-01-23_14-42-39_350x185_e32.jpg" alt="img" />
+									<p class="news__date">18.01.2018</p>
+									<p class="news__title">CleanExpo Moscow С 13 по 15 ноября 2017г</p>
+									<div class="news__icon"></div>
+								</a>
+							</div>
+<div class="swiper-slide news__slide">
+								<a href="news/myi-poluchili-pochetnyij-status-«lidera-otrasli-–-2017»/">
+									<img src="/assets/cache_image/files/images/articles/new-lider-otrasli_350x185_e32.jpg" alt="img" />
+									<p class="news__date">16.11.2017</p>
+									<p class="news__title">Мы получили почетный статус «Лидера отрасли – 2017»</p>
+									<div class="news__icon"></div>
+								</a>
+							</div>
+<div class="swiper-slide news__slide">
+								<a href="news/25-iyunya-2017-goda-generalnyij-direktor-dala-intervyu-izvestnomu-v-segmente-horeca-zhurnalu-akademiya-gostepriimstva/">
+									<img src="/assets/cache_image/files/images/articles/photo-01_350x185_e32.jpg" alt="img" />
+									<p class="news__date">11.07.2017</p>
+									<p class="news__title">25 июня 2017 года генеральный директор дала интервью известному в сегменте HoReCa журналу Академия гостеприимства</p>
+									<div class="news__icon"></div>
+								</a>
+							</div>
+
+
+
+						</div>
+					</div>
+
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+				</div>
+			</div>
+		</div>
+	</section><!-- NEWS -->
+
+	<!-- -CLEANING -->
+	<section class="cleaning">
+		<div class="container">
+			<div class="cleaning__wrapper">
+
+				<div class="cleaning__inner">
+					<img src="/files/avuar24/img/logo.svg" alt="logo" />
+					<h2 class="section-title"> Производим чистящие средства современного поколения </h2>
+					<p class="cleaning__text"> ООО «АВУАР» — производитель профессиональных моющих средств, без которых не обходится ни одна уборка </p>
+					<div class="cleaning__btns">
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-button-next"></div>
+					</div>
+				</div>
+
+				<div class="swiper cleaning-swiper">
+					<div class="swiper-wrapper">
+
+						<div class="swiper-slide cleaning__slide">
+							<img src="/files/img_mainpage24/cleaning-1.jpeg" alt="img" />
+							<p> Химический состав продукции включает только безопасные вещества и сырьё от проверенных изготовителей и не несёт вреда человеческому организму. </p>
+						</div>
+
+						<div class="swiper-slide cleaning__slide">
+							<img src="/files/img_mainpage24/cleaning-3.png" alt="img" />
+							<p> Производим чистящие средства для предприятий, объектов коммунальной службы, транспорта и быта, клининговых и кейтеринговых компаний. </p>
+						</div>
+
+						<div class="swiper-slide cleaning__slide">
+							<img src="/files/img_mainpage24/cleaning-2.jpeg" alt="img" />
+							<p> Профессиональное моющее средство – это настоящий инструмент в руках тех, кто специализируется на клининге. Такая продукция представлена в каталоге </p>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section><!-- CLEANING -->
+
+	<!-- ABOUT -->
+	<section class="avuar">
+		<div class="container">
+			<div class="avuar__wrapper">
+
+				<div class="avuar__inner">
+					<h2 class="section-title">Компания «АВУАР» в цифрах</h2>
+					<p> Благодаря стремительному развитию - расширяются границы сотрудничества с региональными партнерами. На сегодняшний день налажены поставки за пределы Москвы и МО. В регионах России, прилегающих странах СНГ и таможенного союза, сформирована дилерская сеть, с надлежащим контролем качества выпускаемой продукции и работы с Клиентами. </p>
+					<a href="/about/" class="avuar__link">Узнать больше</a>
+				</div>
+
+				<ul class="avuar__list">
+					<li class="avuar__item">
+						<p class="avuar__title">300+</p>
+						<p class="avuar__text"> позиций продукции в каталоге </p>
+					</li>
+					<li class="avuar__item">
+						<p class="avuar__title">>7<span>тыс.</span></p>
+						<p class="avuar__text"> отгружаемых объектов в месяц </p>
+					</li>
+					<li class="avuar__item">
+						<p class="avuar__title">>1К<span>тонн</span></p>
+						<p class="avuar__text"> отгружаемой продукции в месяц </p>
+					</li>
+					<li class="avuar__item">
+						<p class="avuar__title">топ-5</p>
+						<p class="avuar__text"> клининговых компаний России — наши клиенты </p>
+					</li>
+				</ul>
+
+			</div>
+		</div>
+	</section><!-- ABOUT -->
+
+	<!-- -CONTACTS -->
+	<section class="contacts" id="contacts">
+		<div class="container">
+			<div class="contacts__wrapper">
+
+				<div class="contacts__inner">
+					<h2 class="section-title">Контакты</h2>
+					<ul class="contacts__list">
+						<li class="contacts__item">
+							<ul>
+								<li>
+									<span>Телефон</span>
+									<a href="tel:+74997072818">+7 (499) 707-28-18</a>
+								</li>
+								<li>
+									<span>Электронная почта</span>
+									<a href="mailto:info@avuar.org">info@avuar.org</a>
+								</li>
+							</ul>
+						</li>
+						<li class="contacts__item">
+							<ul>
+								<li>
+									<span>Адрес</span>
+									<p>МО, Солнечногорский р-н, д. Лыткино, с 2, Технопарк Лыткино</p>
+								</li>
+								<li>
+									<span>График работы</span>
+									<p>
+										Пн-Пт: 08:00–18:00 <br />
+										Сб-Вс: выходной
+									</p>
+								</li>
+							</ul>
+						</li>
+									
+						</li>
+					</ul>
+				</div>
+
+				<form class="form">
+					<div class="form__body">
+						<h3>Свяжитесь с нами и получите бесплатную консультацию по вашему вопросу</h3>
+						<div class="form__content">
+							<div class="form__inputs">
+								<input
+									type="text"
+									class="form__item form__input"
+									placeholder="Ваше имя"
+									name="name"
+									required
+								/>
+								<input
+									type="text"
+									class="form__item form__input"
+									placeholder="Телефон "
+									name="phone"
+									required
+								/>
+							</div>
+
+							<textarea class="form__item form__textarea" rows="10" placeholder="Комментарий" name="message" ></textarea>
+							<div class="form__inner">
+								<input class="form__button" type="submit" value="Отправить запрос" />
+								<p>Нажимая на кнопку «Отправить запрос», вы соглашаетесь с <a href="/privacy/" target="_blank">политикой конфиденциальности</a></p>
+							</div>
+						</div>
+					</div>
+				</form>
+
+			</div>
+			<div class="contacts__map" id="contacts-map"></div>
+		</div>
+	</section><!-- CONTACTS -->
+
+
+	<!-- FOOTER -->
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__wrapper">
+
+				<div class="footer__inner">
+					<div class="footer__logo">
+						<a href="/"> <img src="/files/img_mainpage24/logo-white.png" alt="logo" /> </a>
+						<p> Профессиональная химия для уборки от производителя </p>
+					</div>
+					<div class="footer__address desktop">
+						<ul>
+							<li> <span>Адрес</span> <p> МО, Солнечногорский р-н, д. Лыткино, с 2, Технопарк Лыткино </p> </li>
+							<li> <span>График работы</span> <p>Пн-Пт: 08:00–18:00</p> </li>
+						</ul>
+					</div>
+					<div class="mobile">
+						<div class="footer__contacts">
+							<a href="tel:+74997072818" >+7(499)707-28-18</a >
+							<a href="mailto:info@avuar.org" >info@avuar.org</a >
+						</div>
+						<button class="footer__button modal-button"> Запросить звонок </button>
+					</div>
+				</div>
+
+				<div class="footer__inner">
+					<nav class="nav footer__nav">
+						<ul class="nav__list">
+							<li class="nav__item"> <a href="/catalog/" class="nav__link">Продукция</a> </li>
+							<li class="nav__item"> <a href="/catalog/byitovaya-himiya/" class="nav__link" >Профессиональная бытовая химия</a > </li>
+							<li class="nav__item"> <a href="/catalog/cleaning/" class="nav__link" >Профессиональная химия для клининга</a > </li>
+							<li class="nav__item"> <a href="/catalog/himchistka-prachechnaya/" class="nav__link" >Профессиональная химия для прачечных и химчисток</a > </li>
+							<li class="nav__item"> <a href="/catalog/special/" class="nav__link" >Специальные средства</a > </li>
+							<li class="nav__item"> <a href="/catalog/professionalnaya-avtoximiya/" class="nav__link" >Профессиональная автохимия</a > </li>
+						</ul>
+					</nav>
+					<nav class="nav footer__nav">
+						<ul class="nav__list">
+							<li class="nav__item"> <a href="/production/" class="nav__link" >Контрактное производство</a > </li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="footer__inner">
+					<nav class="nav footer__nav">
+						<ul class="nav__list">
+							<li class="nav__item"> <a href="/about/" class="nav__link">Компания</a> </li>
+							<li class="nav__item"> <a href="/about/" class="nav__link">О компании</a> </li>
+							<li class="nav__item"> <a href="/directions/" class="nav__link">Направления</a > </li>
+							<li class="nav__item"> <a href="/documents/" class="nav__link">Документы</a> </li>
+							<li class="nav__item"> <a href="/blog/" class="nav__link">Блог</a> </li>
+							<li class="nav__item"> <a href="/news/" class="nav__link">Новости</a> </li>
+							<li class="nav__item"> <a href="/questions/" class="nav__link">Вопросы</a> </li>
+							<li class="nav__item"> <a href="/contacts/" class="nav__link">Контакты</a> </li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="footer__inner">
+					<div class="footer__contacts desktop">
+						<a href="tel:+74997072818">+7(499)707-28-18</a>
+						<a href="mailto:info@avuar.org">info@avuar.org</a>
+					</div>
+
+					<button class="footer__button modal-button desktop"> Запросить звонок </button>
+
+					<div class="footer__address mobile">
+						<ul>
+							<li> <span>Адрес</span> <p> МО, Солнечногорский р-н, д. Лыткарино, с 2, Технопарк Лыткино </p> </li>
+							<li> <span>График работы</span> <p>Пн-Пт: 08:00–18:00</p>
+								<div class="footer__socials">
+									<a href="#" ><img src="/files/img_mainpage24/vk.svg" alt="vk" /></a>
+									<a href="#" ><img src="/files/img_mainpage24/tg.svg" alt="tg" /></a>
+									<a href="#" ><img src="/files/img_mainpage24/yt.svg" alt="yt" /></a>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+					<div class="footer__socials desktop">
+						<a href="#"><img src="/files/img_mainpage24/vk.svg" alt="vk" /></a>
+						<a href="#"><img src="/files/img_mainpage24/tg.svg" alt="tg" /></a>
+						<a href="#"><img src="/files/img_mainpage24/yt.svg" alt="yt" /></a>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="footer__copyright">
+				<div class="footer__copyright-inner"> <p>© 2024 Все права защищены</p> <a href="#">Политика конфиденциальности</a> </div>
+				<a href="https://velaweb.ru/" target="_blank">Сделано с Vela</a>
+			</div>
+
+		</div>
+
+	</footer><!-- FOOTER -->
+
+	
+
+	<link href="/files/avuar24/css/jquery.arcticmodal.css" rel="stylesheet" />
+	<script src="/files/avuar24/js/jquery.arcticmodal.js"></script>
+
+	<!-- feedback Product | Order -->
+	<script type="text/javascript">
+			$(document).ready(function() {
+					$(document).on('click', '.modal-button', function() {
+							$('.FForm').arcticmodal();
+					});
+			});
+	</script>
+
+	<div class="mNModal">
+			<div class="FeedbackForm">
+					<div class="FForm">
+							<section>
+									<div class="modal-close arcticmodal-close"></div>
+									<img src="files/avuar24/img/logo.svg" alt="Citydivan.ru">
+									<h4>Заказать звонок</h4>
+							</section>
+
+
+
+							<form class="ajax_form" action="/" method="post" id="topfeedback" name="main-modal">
+								<div class="d-none hidden">
+									<input type="hidden" name="dladdress" value="78.162.145.162" />
+									<input type="hidden" name="avformname" value="[avuar] Заказ звонка" />
+								</div>
+								<input type="text" name="avname" autocomplete="on" placeholder="Ваше Имя">
+								<input type="text" name="avphone" autocomplete="on" placeholder="Номер телефона" required="" class="mask-phone">
+								<textarea name="avmessage" placeholder="Сообщение"></textarea>
+								<input type="submit" class="" name="avcallback" value="Заказать">
+								<!-- noindex -->
+								<p class="text-privacy">Нажимая на кнопку «Заказать», вы соглашаетесь с <a href="/privacy/" target="_blank">политикой конфиденциальности</a></p>
+								<!-- /noindex -->
+							
+								<input type="hidden" name="af_action" value="646633b30f2566c40275dd6a5621f9dd" />
+							</form>
+							<section>
+								<div id="topfeedbackmsg"></div>
+							</section>
+
+
+							<script>
+								document.addEventListener('DOMContentLoaded', function() {
+									$('form').prepend('<input type="hidden" name="nobot" value="1">');
+									
+									var nameInputs = document.querySelectorAll('input.name');
+									nameInputs.forEach(function(input) {
+										input.value = '';
+									});
+								});
+
+								$(document).on('af_complete', function (event, response) {
+								var form = response.form;
+								// у формы определённый id
+								if (form.attr('id') === 'topfeedback') {
+									form.hide();
+
+									var topFeedbackMsg = document.getElementById('topfeedbackmsg');
+									topFeedbackMsg.innerHTML = '<strong>Сообщение отправлено</strong> <br> Мы ответим вам в ближайшее время!';
+
+								}
+								// Иначе печатаем в консоль весь ответ
+								else {
+									console.log(response)
+								}
+								});
+								
+								
+							</script>
+
+
+					</div><!--/MSFForm-->
+			</div><!--/FeedbackForm-->
+	</div><!--.mNModal-->
+
+
+	<script src="/files/avuar24/js/swiper-bundle.min.js"></script>
+	<script src="/files/avuar24/js/mainpage_24.js"></script>
+
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+
+</body>
+</html>
